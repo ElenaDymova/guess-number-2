@@ -1,0 +1,172 @@
+/* .App {
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    height: 100vh;  
+    padding: 0 20px;
+}
+
+.container {
+    margin: 0 30px;
+    padding: 30px;
+    max-width: 50%;
+    width: 100%;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center;
+    border-radius: 20px;
+    box-sizing: border-box;
+    min-width: 300px;
+
+    h1 {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 65px;
+        margin: 0;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center; 
+
+    button {
+        min-width: 150px; 
+        height: 60px;
+        font-size: 18px;
+        border: none;
+        border-radius: 10px;
+        color: white;
+        cursor: pointer;
+    }
+
+    .btn-decr {
+        background-color: rgb(216, 40, 40);
+
+        &:hover {
+            background-color: rgb(241, 93, 93);
+        }
+    }
+
+    .btn-res {
+        background-color: rgb(152, 146, 146);
+
+        &:hover {
+            background-color: rgb(205, 183, 183);
+        }
+    }
+
+    .btn-incr {
+        background-color: rgb(31, 176, 31);
+
+        &:hover {
+            background-color: rgb(94, 211, 94);
+        }
+    }
+}
+
+
+@media (max-width: 950px) {
+    .buttons {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+
+        button {
+            width: 100%;
+        }
+    }
+  } */
+
+
+* {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+    *::before,
+    *::after {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    border: 0;
+    padding: 0;
+    margin: -1px;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    background-color: rgb(28, 28, 28);
+    color: rgb(218, 181, 16);
+}
+
+.App {
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(218, 181, 16);
+    outline: none;
+    padding: 5px 0; 
+    background-color: transparent; 
+    color: rgb(218, 181, 16); 
+    font-size: 16px;
+}
+
+p {
+    margin-bottom: 20px;
+}
